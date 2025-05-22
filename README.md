@@ -43,6 +43,12 @@ Lo siguiente parte de nuestro proyecto es diseñar la pagina web con las siguien
   -Tener botones con la imagenes de los articulos.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  
-  
+  A continuacion lo quen haremos sera conectar nuestra pagina web con nuestra base de datos. Para poder conectarlo en cada archivo que tenemos necesitamos meter un script en cada archivo   html, que va enlazado con los metodos utilizados en postman.
+
+  Cada metodo tendra su propio boton, exepto el metodo get que es el resultado que se muestra en las tablas.
+
+  Para la correcta conexion de la pagina web necesitaremos conectar con el localhost del node server.js que seria el localhost:3000. 
+  Para acceder a la pagina web necesitaremos el enlace que sera: "http://localhost:5173/".
+
+  Y necesitaremos tener el server.js y Vue abierto(entraremos con el enlace de Vue).
 */ 
