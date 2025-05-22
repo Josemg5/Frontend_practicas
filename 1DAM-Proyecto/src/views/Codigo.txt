@@ -1,0 +1,14 @@
+<script setup>
+
+
+const componentes = ref([]);
+
+onMounted(async () => {
+  try {
+    const res = await axios.get();
+    componentes.value = res.data;
+  } catch (error) {
+    console.error('Error al obtener los componentes:', error);
+  }
+});
+</script>

@@ -1,0 +1,104 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Electrónica</title>
+  <style>
+    body {
+      position: relative;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-shadow: 1px 1px 3px black;
+      text-align: center;
+      padding-top: 50px;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('imagen_fondo.png');
+      background-repeat: repeat;
+      background-size: auto;
+      filter: blur(1.5px) brightness(0.7);
+      z-index: -1;
+    }
+
+
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #fff;
+      text-shadow:
+        2px 2px 6px rgba(0,0,0,0.9);
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+
+    .opcion {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 300px;
+    }
+
+    .opcion a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 15px 30px;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      transition: background-color 0.3s;
+      font-weight: bold;
+    }
+
+    .opcion a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #000;
+      font-weight: bold;
+      box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.7);
+    }
+
+    .opcion img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.7);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Bienvenido al Menú de Electrónica</h1>
+
+  <div class="contenedor">
+    <div class="opcion">
+      <a href="categorias.html" target="_blank">Ver Categorías</a>
+      <img src="categoria.png" alt="Imagen Categorías">
+    </div>
+
+    <div class="opcion">
+      <a href="componentes.html" target="_blank">Ver Componentes</a>
+      <img src="componentes.png" alt="Imagen Componentes">
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
